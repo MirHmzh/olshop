@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.atas{
+  width: 700px;
+  height: 40px;
+  border-bottom: 2px solid #eee;
+  float: left;
+}
+.kedua{
+  width: 649px;
+  height: 40px;
+  border-bottom: 2px solid #eee;
+  float: left;
+}
+#pertama > ul li {
+  list-style: none;
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  padding-top: 0px;
+  top: -16px;
+}
+#margin{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+#kedua > ul li {
+  list-style: none;
+  float: left;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  padding-top: 0px;
+  top: -16px;
+  text-align: center;
+}
+#border{
+  border-right: 1px solid #eee;
+}
+ul li a:hover{
+  color: aqua;
+}
+
+.ketiga{
+  width: auto;
+  height: 150px;
+  /*border-bottom: 4px solid #eee;*/
+}
+.image{
+  padding-top: 60px;
+  margin-left: 80px;
+  position: relative;
+}
+.cari{
+  text-align: center;
+  float: left;
+}
+#search{
+  height: 50px;
+  position: relative;
+  width: 400px;
+  top: -60px;
+  border: 1px solid black;
+  padding-left: 10px;
+  float: left;
+  margin-left: 350px;
+}
+#tombol{
+  position: relative;
+  height: 50px;
+  background-color: black;
+  width: 100px;
+  top: -60px;
+  float: left;
+  border: 1px solid black;
+  color: white;
+}
+#ketiga > ul li {
+  list-style: none;
+  float: left;
+  width: 70px;
+  position: relative;
+  padding-top: 0px;
+  font-size: 12px;
+  left: -500px;
+  top: -20px;
+}
+.keempat{
+  width: auto;
+  height: 56px;
+  border-bottom: 4px solid #eee;
+}
+#gambar{
+  top: -20px;
+  position: relative;
+}
+.kategori{
+  position: relative;
+  float: left;
+  text-align: center;
+}
+#keempat > ul li {
+  list-style: none;
+  width: 200px;
+  height: 37px;
+  line-height: 37px;
+  background-color: #fff;
+  position: relative;
+  font-size: 12px;
+  top: -34px;
+  border: 1px solid #eee;
+  font-size: 15px;
+  float: left;
+  text-align: center;
+}

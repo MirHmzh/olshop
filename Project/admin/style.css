@@ -1,0 +1,167 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+#wrapper{
+	width:100%;
+	margin:auto;
+	font-family: Calibri;
+	overflow: hidden;
+}
+
+.clear{
+	clear:both;
+}
+
+.lariso{
+	height:100px;
+}
+
+.header{
+	width:100%;
+	height:135px;
+	background-color: #fff;
+}
+
+.menu {
+	background-color: #07d;
+	height:35px;
+	line-height: 35px;
+	width:100%;
+	position:absolute;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+
+.menu ul > li {
+	display: block;
+	float: left;
+	padding:0 5px;
+	margin:0 5px;
+	width:100px;
+	cursor: pointer;
+	color:white;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+
+.menu ul li ul{
+	display:none;
+}
+
+.menu ul > li:hover ul{
+	display:block;
+}
+
+.menu ul li ul li {
+	position: relative;
+	left:-15px;
+	display:block;
+	float:none;
+	width:150px;
+	text-align: center;
+	background-color: deepskyblue;
+}
+
+.menu ul li ul li:hover{
+	background-color: #355dff;
+}
+
+.main-content{
+	width:90%;
+	margin:auto;
+	padding:10px 0;
+}
+
+table{
+	margin:auto;
+	padding:5px;
+}
+
+th{
+	padding:5px;
+	background-color: #e74c3c;
+	color:white;
+	min-width: 100px;
+}
+
+td{
+	padding:5px 10px;
+}
+
+.overflow{
+	overflow: scroll;
+}
+
+.tambah{
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.tambah a{
+	text-decoration: none;
+	background-color: #909;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.btn-tmb{
+	text-decoration: none;
+	background-color: aquamarine;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.btn-hps{
+	text-decoration: none;
+	background-color: #567;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 440px) and (min-width: 358px){
+	#wrapper{
+		width:100%;
+	}
+
+
+	.menu{
+		height:140px;
+		width:100%;
+	}
+
+	.menu ul > li {
+		float:none;
+		display:block;
+		width:100%;
+		text-align: center;
+	}
+
+	.menu ul li ul{
+		position:absolute;
+		width:100%;
+	}
+
+	.menu ul li ul li{
+		width:100%;
+		left:-15px;
+	}
+
+	.main-content{
+		margin-top:100px;
+	
+	}
+}
